@@ -84,13 +84,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Arena\CubicSphere.cs" />
     <Compile Include="Assets\Asteroids Pack\Assets\Scripts\RandomRotator.cs" />
+    <Compile Include="Assets\PorglezompPyroclastics\ExplosionMat.cs" />
     <Compile Include="Assets\RenderQueueSetter.cs" />
     <Compile Include="Assets\Scripts\InputController.cs" />
     <Compile Include="Assets\Scripts\Orbital.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\PorglezompPyroclastics\Explosion.shader" />
+    <None Include="Assets\PorglezompPyroclastics\README.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
