@@ -84,12 +84,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Asteroids Pack\Assets\Scripts\RandomRotator.cs" />
-<<<<<<< HEAD
+    <Compile Include="Assets\BackOff.cs" />
+    <Compile Include="Assets\CollisionDestruction.cs" />
+    <Compile Include="Assets\Fade.cs" />
     <Compile Include="Assets\InvertTriangles.cs" />
-=======
     <Compile Include="Assets\PorglezompPyroclastics\ExplosionMat.cs" />
->>>>>>> 3173ba2ad724484a589eb661d46a7878057737dc
     <Compile Include="Assets\RenderQueueSetter.cs" />
     <Compile Include="Assets\Scripts\AsteroidManager.cs" />
     <Compile Include="Assets\Scripts\InputController.cs" />
