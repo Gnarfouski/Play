@@ -42,10 +42,14 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 683, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 35
+=======
+  controlID: 47
+>>>>>>> 3173ba2ad724484a589eb661d46a7878057737dc
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 413
     height: 947
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -90,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 249
     height: 663
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -208,10 +212,14 @@ MonoBehaviour:
     y: 0
     width: 1507
     height: 947
-  m_MinSize: {x: 406, y: 492}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 36
+=======
+  controlID: 48
+>>>>>>> 3173ba2ad724484a589eb661d46a7878057737dc
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -232,10 +240,14 @@ MonoBehaviour:
     y: 0
     width: 1507
     height: 663
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 37
+=======
+  controlID: 49
+>>>>>>> 3173ba2ad724484a589eb661d46a7878057737dc
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -285,9 +297,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 376
+    x: 251
     y: 92
-    width: 1129
+    width: 1254
     height: 642
 --- !u!114 &13
 MonoBehaviour:
@@ -391,19 +403,33 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
+<<<<<<< HEAD
     - Assets/Asteroids Pack/Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/Asteroids Pack/Assets/Prefabs
+=======
+    - Assets/PorglezompPyroclastics
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/PorglezompPyroclastics
+>>>>>>> 3173ba2ad724484a589eb661d46a7878057737dc
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Vitali\Documents\Unity\Play
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: fe2e0000
     m_LastClickedID: 12030
     m_ExpandedIDs: 00000000982e0000a22e0000f02e0000f22e000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: fe490000
+    m_LastClickedID: 18942
+    m_ExpandedIDs: 0000000072260000a0260000862700008a2b00004a30000062300000fe49000000ca9a3bffffff7f
+>>>>>>> 3173ba2ad724484a589eb661d46a7878057737dc
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -431,7 +457,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000982e0000a22e0000f02e0000
+=======
+    m_ExpandedIDs: 0000000072260000a026000086270000
+>>>>>>> 3173ba2ad724484a589eb661d46a7878057737dc
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -459,7 +489,11 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
+<<<<<<< HEAD
     m_ExpandedInstanceIDs: c62300006426000000000000
+=======
+    m_ExpandedInstanceIDs: c623000064260000
+>>>>>>> 3173ba2ad724484a589eb661d46a7878057737dc
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -547,9 +581,15 @@ MonoBehaviour:
     height: 642
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 94290000
     m_LastClickedID: 0
     m_ExpandedIDs: aa14feffd014feff8e15feff9615feff94eeffff00000000
+=======
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 48a9ffff8cb2ffffe0b7ffff60bdffffd8cdffff38e1ffff54eeffff1afcffff00000000
+>>>>>>> 3173ba2ad724484a589eb661d46a7878057737dc
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -604,9 +644,15 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -44.59697, y: 2.0188751, z: 50.45694}
     speed: 2
     m_Value: {x: -44.59697, y: 2.0188751, z: 50.45694}
+=======
+    m_Target: {x: 0.4284563, y: -1.517942, z: 0.39552832}
+    speed: 2
+    m_Value: {x: 0.4284563, y: -1.517942, z: 0.39552832}
+>>>>>>> 3173ba2ad724484a589eb661d46a7878057737dc
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -629,6 +675,7 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.13357906, y: -0.31378397, z: 0.04463862, w: 0.93899083}
     speed: 2
     m_Value: {x: 0.13357906, y: -0.31378397, z: 0.04463862, w: 0.93899083}
@@ -636,6 +683,15 @@ MonoBehaviour:
     m_Target: 208.21509
     speed: 2
     m_Value: 208.21509
+=======
+    m_Target: {x: -0.119445, y: 0.880078, z: -0.30914894, w: -0.34003323}
+    speed: 2
+    m_Value: {x: -0.119445, y: 0.880078, z: -0.30914894, w: -0.34003323}
+  m_Size:
+    m_Target: 13.287965
+    speed: 2
+    m_Value: 13.287965
+>>>>>>> 3173ba2ad724484a589eb661d46a7878057737dc
   m_Ortho:
     m_Target: 0
     speed: 2
