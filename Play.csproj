@@ -90,9 +90,24 @@
     <Compile Include="Assets\InvertTriangles.cs" />
     <Compile Include="Assets\PorglezompPyroclastics\ExplosionMat.cs" />
     <Compile Include="Assets\RenderQueueSetter.cs" />
+    <Compile Include="Assets\RespawnManager.cs" />
     <Compile Include="Assets\Scripts\AsteroidManager.cs" />
     <Compile Include="Assets\Scripts\InputController.cs" />
     <Compile Include="Assets\Scripts\Orbital.cs" />
+    <Compile Include="Assets\Tail Mesh\Scripts\AsyncEditor.cs" />
+    <Compile Include="Assets\Tail Mesh\Scripts\Catmull\CatmullRom.cs" />
+    <Compile Include="Assets\Tail Mesh\Scripts\Catmull\Vector3Poly.cs" />
+    <Compile Include="Assets\Tail Mesh\Scripts\Drawing.cs" />
+    <Compile Include="Assets\Tail Mesh\Scripts\EditorCoroutine.cs" />
+    <Compile Include="Assets\Tail Mesh\Scripts\EditorUtils.cs" />
+    <Compile Include="Assets\Tail Mesh\Scripts\Mathd.cs" />
+    <Compile Include="Assets\Tail Mesh\Scripts\Mesh Generation\RoadMeshGeneration.cs" />
+    <Compile Include="Assets\Tail Mesh\Scripts\Mesh Generation\RoadWayDivider.cs" />
+    <Compile Include="Assets\Tail Mesh\Scripts\RoadConfig.cs" />
+    <Compile Include="Assets\Tail Mesh\Scripts\RoadMesh.cs" />
+    <Compile Include="Assets\Tail Mesh\Scripts\RoadMeshEditor.cs" />
+    <Compile Include="Assets\Tail Mesh\Scripts\Terrain Changer\TerrainChanger.cs" />
+    <Compile Include="Assets\Tail Mesh\Scripts\Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PorglezompPyroclastics\Explosion.shader" />

@@ -16,12 +16,20 @@ public class InputController : MonoBehaviour {
     public GameObject target;
     public GameObject ps1, ps2;
 
-    public Image fuelGauge;
-    public Image plasmaGauge;
+    Image fuelGauge;
+    Image plasmaGauge;
 
     float fuel = 100;
     float lastTimeFuelPressed = 0;
     float plasma = 100;
+
+    private void Start()
+    {
+        fuelGauge = GameObject.FindGameObjectWithTag("Fuel").GetComponent<Image>();
+        fuelGauge.fillAmount = fuel / 100;
+        plasmaGauge = GameObject.FindGameObjectWithTag("Plasma").GetComponent<Image>();
+        plasmaGauge.fillAmount = plasma / 100;
+    }
 
     void Update () {
         transform.Rotate(Vector3.forward, -1 * Input.GetAxis("Horizontal") * rollSpeed);
