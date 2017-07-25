@@ -23,6 +23,13 @@ public class InputController : MonoBehaviour {
     float lastTimeFuelPressed = 0;
     float plasma = 100;
 
+    public GameObject[] tailRefs;
+
+    Vector3[] lastTail;
+    float tailStartTime = 0;
+
+    public Material mtail;
+
     private void Start()
     {
         fuelGauge = GameObject.FindGameObjectWithTag("Fuel").GetComponent<Image>();
@@ -37,6 +44,34 @@ public class InputController : MonoBehaviour {
 
         float accValue = Input.GetAxis("Accelerate");
         float forwardSpeed = minSpeed;
+
+        float tailValue = Input.GetAxis("TailGen");
+        if(tailValue > 0.2f)
+        {
+            if(lastTail == null)
+            {
+                lastTail = new Vector3[2];
+                lastTail[0] = tailRefs[0].transform.position;
+                lastTail[1] = tailRefs[1].transform.position;
+                tailStartTime = Time.time;
+            }
+            else
+            {
+                if(Time.time - tailStartTime > 0.1)
+                {
+                    Vector3[] temp = new Vector3[4];
+                    temp[0] = tailRefs[0].transform.position;
+                    temp[1] = tailRefs[1].transform.position;
+                    makeMesh(temp, lastTail);
+                    tailStartTime = Time.time;
+                    lastTail = temp;
+                }
+            }
+        }
+        else
+        {
+            lastTail = null;
+        }
 
         ps1.transform.localScale = Vector3.one;
         ps2.transform.localScale = Vector3.one;
@@ -69,4 +104,24 @@ public class InputController : MonoBehaviour {
 
         transform.Translate(Vector3.forward * forwardSpeed);
 	}
+
+    void makeMesh(Vector3[] start, Vector3[] end)
+    {
+        Vector3[] verts1 = new Vector3[] { start[0], start[1], end[0], end[1] };
+
+        int[] triangles = new int[] { 0, 1, 2, 0, 2, 1, 1, 2, 3, 1, 3, 2};
+        Vector2[] uv = new Vector2[] { Vector2.zero, Vector2.up, Vector2.right, Vector2.one };
+
+        Mesh m = new Mesh();
+
+        m.vertices = verts1;
+        m.triangles = triangles;
+        m.uv = uv;
+
+        GameObject mTail = new GameObject();
+        mTail.AddComponent<MeshRenderer>().material = mtail;
+        mTail.AddComponent<MeshFilter>().sharedMesh = m;
+        mTail.AddComponent<AlphaFadeIn>();
+        GameObject.Instantiate(mTail);
+    }
 }
